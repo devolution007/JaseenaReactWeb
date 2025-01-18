@@ -18,6 +18,7 @@ const PricingCards = () => {
                     <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                     {/* <img src="/icons/omni-channel.png" alt="Omni Channel" className="mx-auto mb-4 w-16 relative z-10" /> */}
                     <h3 className="text-xl font-semibold relative z-10 uppercase">Omni Channel Distribution & Trading</h3>
+                    <p>Enabling you to reached your customers in a variety of B2B and B2C market across the GCC</p>
                 </div>
 
                 {/* Column 2: End-to-End Logistical Solutions */}
@@ -27,7 +28,8 @@ const PricingCards = () => {
                 >
                     <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                     {/* <img src="/icons/logistics.png" alt="Logistical Solutions" className="mx-auto mb-4 w-16 relative z-10" /> */}
-                    <h3 className="text-xl font-semibold relative z-10 uppercase">End to End Logistical Solutions</h3>
+                    <h3 className="text-xl font-semibold relative z-10 uppercase">3PL Logistics</h3>
+                    <p>Accomplish more with our extensive shipping warehouse, inventory management and order fulfillment solutions</p>
                 </div>
 
                 {/* Column 3: E-Commerce & Sales Management */}
@@ -37,7 +39,8 @@ const PricingCards = () => {
                 >
                     <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                     {/* <img src="/icons/ecom-sales.png" alt="E-Commerce Management" className="mx-auto mb-4 w-16 relative z-10" /> */}
-                    <h3 className="text-xl font-semibold relative z-10 uppercase">E-Commerce & Sales Management</h3>
+                    <h3 className="text-xl font-semibold relative z-10 uppercase">E com & sale management services</h3>
+                    <p>Increase your revenues by selling directly to your customers in the GCC through custom-built ecommerce portal</p>
                 </div>
 
                 {/* Column 4: Brand Management Services */}
@@ -48,6 +51,7 @@ const PricingCards = () => {
                     <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                     {/* <img src="/icons/brand-management.png" alt="Brand Management" className="mx-auto mb-4 w-16 relative z-10" /> */}
                     <h3 className="text-xl font-semibold relative z-10 uppercase">Brand Management Services</h3>
+                    <p>Build and grow your brand with tailored strategies that resonate in the GCC market </p>
                 </div>
             </div>
         </div>

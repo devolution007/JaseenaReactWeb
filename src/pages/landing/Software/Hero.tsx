@@ -40,8 +40,7 @@ const Hero = () => {
                 Into the GCC Market
               </h2>
               <p className="text-gray-300 text-lg leading-relaxed mb-7">
-                Over 35 years of creating partnerships that <br />
-                drive sustainable growth.
+              Five decades of building trustworthy partnerships.
               </p>
               <div className="mt-5">
                 <Link
