@@ -21,7 +21,7 @@ const brands = [
   { image: qatar, name: 'Qatar' },
   { image: pakistan, name: 'Pakistan' },
   { image: sweden, name: 'Sweden' },
-  { image: uk, name: 'United Kingdom' },
+  { image: uk, name: 'UK' },
   { image: singapore, name: 'Singapore' },
 ];
 
