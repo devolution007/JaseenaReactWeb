@@ -28,7 +28,7 @@ const PricingCards = () => {
                 >
                     <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                     {/* <img src="/icons/logistics.png" alt="Logistical Solutions" className="mx-auto mb-4 w-16 relative z-10" /> */}
-                    <h3 className="text-xl font-semibold relative z-10 uppercase">3PL Logistics</h3>
+                    <h3 className="text-xl font-semibold relative z-10 uppercase">THIRD PARTY LOGISTICS</h3>
                     <p>Accomplish more with our extensive shipping warehouse, inventory management and order fulfillment solutions</p>
                 </div>
 
