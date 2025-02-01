@@ -1,38 +1,12 @@
-import colors from 'tailwindcss/colors'
+/** @type {import('tailwindcss').Config} */
 export default {
-    content: [
-        "./src/**/*.{scss,js,ts,jsx,tsx}",
-        "node_modules/@frostui/tailwindcss/dist/*.js"
-    ],
-    darkMode: ['class'],
-    theme: {
-
-        container: {
-            center: true,
-            padding: {
-                DEFAULT: '1rem',
-                sm: '1rem',
-                md: '1rem',
-                lg: '1rem',
-                xl: '3rem',
-                '2xl': '14rem',
-            },
-        },
-
-        fontFamily: {
-            'body': ['Be Vietnam Pro', 'sans-serif'],
-        },
-
-        extend: {
-            colors: {
-                'primary': colors.blue[600],
-            },
-        },
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      backgroundImage: {
+        "gold-gradient": "linear-gradient(to right, #9f6310, #FFD700, #9f6310)",
+      },
     },
-
-    plugins: [
-        require('@frostui/tailwindcss/plugin'),
-        require('@tailwindcss/forms'),
-        require('@tailwindcss/typography'),
-    ],
-}
+  },
+  plugins: [],
+};
