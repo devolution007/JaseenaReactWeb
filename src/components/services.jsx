@@ -34,7 +34,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="flex w-full h-[90vh]">
+    <div className="block sm:flex w-full sm:h-[90vh]">
       {services.map((service, index) => (
         <motion.div
           key={index}

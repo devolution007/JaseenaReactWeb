@@ -38,7 +38,7 @@ const Values = () => {
     <>
       <div>
         <h2
-          className="text-yellow-400 uppercase text-center text-[60px] font-[Calibri] font-bold mt-[100px] leading-[4rem]"
+          className="text-yellow-400 uppercase text-center text-[25px] sm:text-[60px] font-[Calibri] font-bold mt-[100px] leading-[1.5rem] sm:leading-[4rem]"
           data-aos="fade-down"
           data-aos-delay="500"
           data-aos-offset="300"
@@ -47,7 +47,7 @@ const Values = () => {
           <br /> Driven by Impact
         </h2>
         <p
-          className="text-sm md:text-[40px] font-bold text-white mt-2 font-[Calibri] leading-[35px] uppercase"
+          className="text-[20px] md:text-[40px] font-bold text-white mt-2 font-[Calibri] leading-[26px] sm:leading-[35px] uppercase"
           data-aos="fade-up"
           data-aos-delay="500"
           data-aos-offset="300"
@@ -66,7 +66,7 @@ const Values = () => {
           Connect WITH US
         </button>
       </div>
-      <div className="container mx-auto flex justify-around my-[80px] gap-20">
+      <div className="container mx-auto flex flex-col sm:flex-row sm:justify-around px-10 my-[40px] sm:my-[80px] gap-10 sm:gap-20">
         {icons.map((icon, index) => (
           <div
             key={index}
@@ -75,11 +75,11 @@ const Values = () => {
             data-aos-delay={icon.delay}
             data-aos-offset="300"
           >
-            <img src={icon.src} alt={icon.alt} className="w-[50%] mb-2" />
-            <h1 className="text-sm uppercase md:text-[30px] text-white font-[Calibri] font-semibold">
+            <img src={icon.src} alt={icon.alt} className="w-[35%] sm:w-[50%] mb-2" />
+            <h1 className="text-[20px] uppercase md:text-[30px] text-white font-[Calibri] font-semibold">
               {icon.title}
             </h1>
-            <p className="text-sm md:text-[25px] text-white mt-4 font-normal font-[Calibri] leading-[30px]">
+            <p className="text-sm md:text-[25px] text-white sm:mt-4 font-normal font-[Calibri] leading-[20px] sm:leading-[30px]">
               {icon.desc}
             </p>
           </div>

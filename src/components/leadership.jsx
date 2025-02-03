@@ -7,7 +7,7 @@ const LeadershipTeam = () => {
   return (
     <div className="py-16">
       <h1
-        className="text-transparent bg-clip-text uppercase text-center text-[65px] font-[Calibri] font-bold my-[60px]"
+        className="text-transparent bg-clip-text uppercase text-center text-[25px] sm:text-[65px] font-[Calibri] font-bold my-[60px]"
         style={{
           backgroundImage:
             "linear-gradient(to right, #9f6310, #FFD700, #9f6310)",
@@ -20,7 +20,7 @@ const LeadershipTeam = () => {
       >
         OUR LEADERSHIP TEAM
       </h1>
-      <div className="mx-auto container grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="mx-auto container grid grid-cols-1 md:grid-cols-4 gap-8 p-6">
         {[
           {
             name: "IMTIAZ AHMAD MINHAS",
@@ -79,7 +79,7 @@ const LeadershipTeam = () => {
                 </a>
               </div>
             </div>
-            <h3 className="text-sm md:text-[20px] text-white my-6 font-[Calibri] font-bold">
+            <h3 className="text-[20px] md:text-[20px] text-white my-6 font-[Calibri] font-bold">
               {leader.name}
             </h3>
             <p className="text-center text-sm md:text-[18px] mt-4 text-white font-normal">
@@ -92,7 +92,7 @@ const LeadershipTeam = () => {
         data-aos="fade-up"
         data-aos-delay="300"
         onClick={() => setIsOpen(true)}
-        className="text-black uppercase font-semibold px-8 py-1 my-[5rem] rounded-[10px] transition-all duration-300 ease-in-out bg-gold-gradient font-[Calibri] text-[20px] 
+        className="text-black uppercase font-semibold px-8 py-1 my-[1rem] sm:my-[5rem] rounded-[10px] transition-all duration-300 ease-in-out bg-gold-gradient font-[Calibri] text-[20px] 
     hover:tracking-[3px] 
     hover:shadow-[0px_7px_29px_0px_gold]"
       >

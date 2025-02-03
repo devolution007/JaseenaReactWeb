@@ -67,15 +67,15 @@ const BrandSection = () => {
   return (
     <div className="flex flex-col items-center justify-center py-10 my-auto">
       <h2
-        className="text-yellow-400 text-center text-[40px] font-[Calibri] font-bold mt-[100px]"
+        className="text-yellow-400 text-center text-[25px] sm:text-[40px] font-[Calibri] font-semibold sm:font-bold mt-[50px] sm:mt-[100px]"
         data-aos="fade-right"
         data-aos-delay="200"
         data-aos-offset="300"
       >
         OUR BRANDS
       </h2>
-      <div className="mx-auto container">
-        <div className="flex flex-wrap align-middle justify-center gap-[6rem] mt-[75px] py-4">
+      <div className="mx-auto container px-4">
+        <div className="flex flex-wrap align-middle justify-center gap-[3rem] sm:gap-[6rem] mt-[75px] py-4">
           {brands1.map((brand, index) => (
             <div key={index} className="w-32">
               <img
@@ -86,7 +86,7 @@ const BrandSection = () => {
             </div>
           ))}
         </div>
-        <div className="flex flex-wrap align-middle justify-center gap-[6rem] my-[50px] py-4">
+        <div className="flex flex-wrap align-middle justify-center gap-[3rem] sm:gap-[6rem] my-[50px] py-4">
           {brands2.map((brand, index) => (
             <div key={index} className="w-32">
               <img
@@ -97,9 +97,9 @@ const BrandSection = () => {
             </div>
           ))}
         </div>
-        <div className="flex flex-wrap align-middle justify-center gap-[6rem] mt-[10px] py-4 ">
+        <div className="flex flex-wrap align-middle justify-center gap-[3rem] sm:gap-[6rem] mt-[10px] py-4 ">
           {brands3.map((brand, index) => (
-            <div key={index} className="w-[16%]">
+            <div key={index} className="w-[60%] sm:w-[16%]">
               <img
                 src={brand.image}
                 alt={brand.name}

@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="relative text-white pt-[150px] pb-[100px]">
+    <section className="relative text-white pt-[10px] pb-[50px] sm:pt-[150px] sm:pb-[100px]">
       <div className="max-w-7xl mx-auto flex flex-col items-center text-center px-6 ">
         <div className="flex flex-col md:flex-row items-center w-full">
           {/* Hero Text */}
@@ -10,7 +10,7 @@ const HeroSection = () => {
             <h1
               data-aos="fade-right"
               data-aos-delay="500"
-              className="text-4xl md:text-[55px] leading-[55px] font-bold text-transparent bg-clip-text font-[Calibri]"
+              className="text-[30px] leading-[30px] sm:text-4xl md:text-[55px] sm:leading-[55px] font-bold text-transparent bg-clip-text font-[Calibri]"
               style={{
                 backgroundImage:
                   "linear-gradient(to right, #9f6310, #FFD700, #9f6310)",
@@ -18,12 +18,12 @@ const HeroSection = () => {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              YOUR TRUSTED <br /> GATEWAY
+              YOUR TRUSTED GATEWAY
             </h1>
             <h2
               data-aos="fade-right"
               data-aos-delay="800"
-              className="text-2xl md:text-[35px] font-semibold text-white my-[15px]"
+              className="text-[20px] my-[10px] sm:text-2xl font-semibold text-white sm:my-[15px]"
             >
               INTO THE GCC MARKET
             </h2>
@@ -59,7 +59,7 @@ const HeroSection = () => {
         </div>
 
         {/* Country Flags */}
-        <div className="flex flex-wrap justify-center items-center mt-10 gap-10">
+        <div className="flex flex-wrap sm:justify-center items-center mt-10 justify-between gap-8 sm:gap-10">
           {[
             {
               name: "UAE",
@@ -102,7 +102,7 @@ const HeroSection = () => {
               <img
                 src={country.flag}
                 alt={country.name}
-                className="h-[50px] w-[80px] transform transition-transform duration-300 ease-in-out hover:scale-110"
+                className="w-[60px] sm:w-[60px] transform transition-transform duration-300 ease-in-out hover:scale-110"
               />
               <span className="text-sm mt-4">{country.name}</span>
             </div>
