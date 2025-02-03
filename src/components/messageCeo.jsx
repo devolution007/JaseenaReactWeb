@@ -1,14 +1,14 @@
 const MessageCeo = () => {
   return (
     <div
-      className="max-w-7xl mx-auto mt-[150px]"
+      className="max-w-7xl mx-auto mt-[0px] sm:mt-[150px] sm:p-0 p-4"
       data-aos="fade-right"
       data-aos-delay="500"
       data-aos-offset="400"
     >
       <div>
         <h1
-          className="text-lg md:text-[46px] text-left uppercase font-semibold font-[Calibri] text-transparent bg-clip-text leading-[50px]"
+          className="text-[25px] md:text-[46px] text-left uppercase font-semibold font-[Calibri] text-transparent bg-clip-text  leading-[30px] sm:leading-[50px]"
           style={{
             backgroundImage:
               "linear-gradient(to right, #9f6310, #FFD700, #9f6310)",

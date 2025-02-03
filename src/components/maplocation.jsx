@@ -7,7 +7,7 @@ export default function Addresses() {
       className="flex mb-[100px]"
     >
       {/* Left Side Image */}
-      <div className="w-3/12">
+      <div className="hidden sm:block w-3/12 h-auto">
         <img
           src="https://magnetmakerz.com/wp-content/uploads/2025/01/image-28.png"
           alt="City Skyline"
@@ -18,7 +18,7 @@ export default function Addresses() {
       {/* Right Side Addresses */}
       <div className="w-3/4 text-white p-6 text-left">
         <h2 className="text-3xl font-bold mb-6">Addresses</h2>
-        <div className="grid grid-cols-6 gap-6">
+        <div className="block sm:grid grid-cols-6 gap-6">
           {/* UAE */}
           <div>
             <h3 className="font-bold pb-[20px]">UNITED ARAB EMIRATES</h3>

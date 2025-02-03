@@ -62,15 +62,15 @@ const Distributors = () => {
   return (
     <div className="flex flex-col items-center justify-center py-10 my-auto">
       <h2
-        className="text-yellow-400 text-center text-[40px] font-[Calibri] font-bold mt-[100px]"
+        className="text-yellow-400 text-center text-[25px] sm:text-[40px] font-[Calibri] font-semibold sm:font-bold mt-[100px]"
         data-aos="fade-right"
         data-aos-delay="200"
         data-aos-offset="400"
       >
         OUR DISTRIBUTION NETWORK
       </h2>
-      <div className="mx-auto container">
-        <div className="flex flex-wrap align-middle justify-center gap-[13rem] mt-[75px] py-4">
+      <div className="mx-auto container px-4">
+        <div className="flex flex-wrap align-middle justify-center gap-[4rem] sm:gap-[13rem] mt-[75px] py-4">
           {brands1.map((brand, index) => (
             <div key={index} className="w-[130px]">
               <img
@@ -81,7 +81,7 @@ const Distributors = () => {
             </div>
           ))}
         </div>
-        <div className="flex flex-wrap align-middle justify-center gap-[13rem] my-[50px] py-4">
+        <div className="flex flex-wrap align-middle justify-center gap-[4rem] sm:gap-[13rem] my-[10px] sm:my-[50px] py-4">
           {brands2.map((brand, index) => (
             <div key={index} className="w-[130px]">
               <img
@@ -92,7 +92,7 @@ const Distributors = () => {
             </div>
           ))}
         </div>
-        <div className="flex flex-wrap align-middle justify-center gap-[13rem] mt-[10px] py-4 ">
+        <div className="flex flex-wrap align-middle justify-center gap-[4rem] sm:gap-[13rem] mt-[10px] py-4 ">
           {brands3.map((brand, index) => (
             <div key={index} className="w-[130px]">
               <img

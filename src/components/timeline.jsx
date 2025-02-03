@@ -77,14 +77,14 @@ export default function TimelineCarousel() {
   return (
     <div className="relative w-full max-w-5xl mx-auto my-10">
       {/* Horizontal Line Behind Icons */}
-      <div className="absolute top-[30%] left-0 w-full border-t-[3px] border-[#BDA10E] z-0"></div>
+      <div className="absolute top-[30%] left-[35px] sm:left-0 w-[80%] sm:w-full border-t-[3px] border-[#BDA10E] z-0"></div>
 
       {/* Custom Navigation Arrows */}
-      <button className="swiper-button-prev-custom absolute left-[-27px] top-[30%] transform -translate-y-[44%] z-10">
+      <button className="swiper-button-prev-custom absolute left-[0px] sm:left-[-27px] top-[30%] transform -translate-y-[44%] z-10">
         <ChevronLeft className="text-yellow-400 w-8 h-8" />
       </button>
 
-      <button className="swiper-button-next-custom absolute right-[-27px] top-[30%] transform -translate-y-[44%] z-10">
+      <button className="swiper-button-next-custom absolute right-[0px] sm:right-[-27px] top-[30%] transform -translate-y-[44%] z-10">
         <ChevronRight className="text-yellow-400 w-8 h-8" />
       </button>
 
@@ -98,6 +98,23 @@ export default function TimelineCarousel() {
           prevEl: ".swiper-button-prev-custom",
         }}
         modules={[Navigation]}
+        breakpoints={{
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            // spaceBetween: 10,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 2,
+            // spaceBetween: 20,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        }}
         className="relative z-10"
       >
         {timelineData.map((item, index) => (

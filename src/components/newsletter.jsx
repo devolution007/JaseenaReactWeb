@@ -5,7 +5,7 @@ const Newsletter = () => {
     <div className=" text-white">
       <div className="container mx-auto px-4 py-16">
         <h1
-          className="text-transparent bg-clip-text uppercase text-center text-[65px] font-[Calibri] font-bold mt-[60px]"
+          className="text-transparent bg-clip-text uppercase text-center text-[25px] sm:text-[65px] font-[Calibri] font-bold mt-[10px] sm:mt-[60px]"
           style={{
             backgroundImage:
               "linear-gradient(to right, #9f6310, #FFD700, #9f6310)",
@@ -19,7 +19,7 @@ const Newsletter = () => {
           SUBSCRIBE TO JASEENA'S NEWSLETTER
         </h1>
         <p
-          className="text-sm md:text-[26px] text-white mb-4 font-[Calibri] leading-[35px]"
+          className="text-[18px] md:text-[26px] text-white mb-4 font-[Calibri] leading-[20px] sm:leading-[35px]"
           data-aos="fade-up"
           data-aos-delay="500"
           data-aos-offset="300"
@@ -28,7 +28,7 @@ const Newsletter = () => {
           delivered monthly.
         </p>
         <div
-          className="flex flex-col md:flex-row items-center justify-center gap-4"
+          className="flex flex-col md:flex-row items-center justify-center gap-4 p-6 sm:p-0"
           data-aos="fade-up"
           data-aos-delay="500"
           data-aos-offset="300"
@@ -36,15 +36,15 @@ const Newsletter = () => {
           <input
             type="text"
             placeholder="NAME"
-            className="w-[20%] px-4 py-2 bg-transparent border-[2px] focus:outline-none border-yellow-500"
+            className="w-[100%] sm:w-[20%] px-4 py-2 bg-transparent border-[2px] focus:outline-none border-yellow-500"
           />
           <input
             type="email"
             placeholder="EMAIL"
-            className="w-[20%] px-4 py-2 bg-transparent border-[2px] focus:outline-none border-yellow-500"
+            className="w-[100%] sm:w-[20%] px-4 py-2 bg-transparent border-[2px] focus:outline-none border-yellow-500"
           />
           <button
-            className="text-black uppercase font-semibold px-8 py-1 rounded-[10px] transition-all duration-300 ease-in-out bg-gold-gradient font-[Calibri] text-[20px] 
+            className="w-[100%] sm:w-[10%] text-black uppercase font-semibold px-8 py-1 rounded-[10px] transition-all duration-300 ease-in-out bg-gold-gradient font-[Calibri] text-[20px] 
     hover:tracking-[3px] 
     hover:shadow-[0px_7px_29px_0px_gold]"
           >

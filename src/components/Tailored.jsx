@@ -39,10 +39,10 @@ const Taillored = () => {
     },
   ];
   return (
-    <div className="max-w-7xl mx-auto mt-[150px]">
+    <div className="max-w-7xl mx-auto sm:p-[0] p-4 sm:mt-[150px]">
       <div>
         <h1
-          className="text-lg md:text-[46px] text-left uppercase font-semibold font-[Calibri] text-transparent bg-clip-text leading-[60px]"
+          className="text-[25px] md:text-[46px] text-left uppercase font-semibold font-[Calibri] text-transparent bg-clip-text leading-[30px] sm:leading-[60px]"
           style={{
             backgroundImage:
               "linear-gradient(to right, #9f6310, #FFD700, #9f6310)",
@@ -105,18 +105,18 @@ const Taillored = () => {
               <img
                 src={service.icon}
                 alt={service.title}
-                className="mb-4 w-[130px]"
+                className="mb-4 w-[100px] sm:w-[130px]"
               />
-              <h3 className="font-semibold text-[25px]">{service.title}</h3>
-              <p className="text-white mt-5">{service.description}</p>
+              <h3 className="font-semibold text-[17px] sm:text-[25px]">{service.title}</h3>
+              <p className="text-white mt-1 sm:mt-5">{service.description}</p>
             </div>
           ))}
         </div>
-        <div className="max-w-4xl my-14 mx-auto flex text-center">
+        <div className="max-w-4xl sm:my-14 mx-auto block sm:flex text-center">
           {services2.map((service, index) => (
             <div
               key={index}
-              className="flex flex-col items-center text-white"
+              className="flex flex-col items-center text-white my-10"
               data-aos="fade-up"
               data-aos-delay={service.delay}
               data-aos-offset="300"
@@ -124,10 +124,10 @@ const Taillored = () => {
               <img
                 src={service.icon}
                 alt={service.title}
-                className="mb-4 w-[130px]"
+                className="mb-4 w-[100px] sm:w-[130px]"
               />
-              <h3 className="font-semibold text-[25px]">{service.title}</h3>
-              <p className="text-white mt-5">{service.description}</p>
+              <h3 className="font-semibold text-[17px] sm:text-[25px]">{service.title}</h3>
+              <p className="text-white mt-1 sm:mt-5">{service.description}</p>
             </div>
           ))}
         </div>
